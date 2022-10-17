@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="C.css">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+        <script src="cart.js"></script>
+    </head>
+    <body>
+    <!-- navigation bar BEGINS -->
+
+    <div class="top">
+        <div class="pf">
+            <h2>
+                B
+                <span style="color:aquamarine">O</span> 
+                O
+                <span style="color:aquamarine">K</span>
+                W 
+                <span style="color:aquamarine">O</span>
+                R
+                <span style="color:aquamarine">M</span>
+                S   
+            </h2>
+        </div>
+        
+        <div class="menu">
+            <nav>
+                <div>
+                    <a href="#Home">Home</a>
+                    <a href="#Product">Product</a>
+                    <a href="#Review">Review</a>
+                    <a href="#Contact">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- navigation bar ENDS -->
+
+    <section id="Home">
+        <br><br><br>
+        <h1 class="Home-top">Home</h1>
+        <img src="https://images.alphacoders.com/114/1145913.jpg" height="900" width=2000">
+    </section>
+
+    <!-- Offer STARTS -->
+    <section id="Product"> 
+        <br><br>
+        <h1 class="Product-top">Special Discount Offers</h1>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="items">
+                        <div class="disc-book-pic">
+                            <img src="https://bestlifeonline.com/wp-content/uploads/sites/3/2020/10/The-Hobbit-book-cover.jpg?resize=500,774&quality=82&strip=all" height="500 width=450">
+                        </div>
+                        <div class="disc-book-info">
+                            <h1>The Hobbit</h1>
+                            <h2><del>150 $</del></h2>
+                            <h1 style="color:crimson">20% OFF!</h1>
+                            <h2>120 $</h2>
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                    <br><br><br><br>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="items">
+                        <div class="disc-book-pic">
+                            <img src="https://bestlifeonline.com/wp-content/uploads/sites/3/2020/10/The-Alchemist-book-cover.jpg?resize=500,759&quality=82&strip=all" height="500 width=450">
+                        </div>
+                        <div class="disc-book-info">
+                            <h1>The Alchemist</h1> 
+                            <h2><del>180 $</del></h2>
+                            <h1 style="color:crimson">15% OFF!</h1>
+                            <h2>153 $</h2>
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                    <br><br><br><br>
+                </div>
+                <div class="carousel-item">
+                    <div class="items">
+                        <div class="disc-book-pic">
+                            <img src="https://bestlifeonline.com/wp-content/uploads/sites/3/2020/10/The-Bridges-of-Madison-County-book-cover.jpg?resize=500,805&quality=82&strip=all" height="500 width=450">
+                        </div>
+                        <div class="disc-book-info">
+                            <h1>The Bridges of Madison County</h1> 
+                            <h2><del>360 $</del></h2>
+                            <h1 style="color:crimson">10% OFF!</h1>
+                            <h2>324 $</h2> 
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                    <br><br><br><br>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- Offer ENDS -->
+
+    <!-- All Products STARTS -->
+    <br><br>
+    <h1 class="All-Product-top">All Products</h1>
+    <div class="all">
+        <div> <!-- 6 items if grid -->
+            <div class="all-items">
+                <div class="book">
+                    <img src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/9/2/1441205095847/2eab3067-c0d9-44d7-abcd-d21af5b4b245-bestSizeAvailable.jpeg?width=140&quality=85&dpr=1&s=none" height="500 width=450">
+                    <h4>Stranger in a strange land</h4>
+                    <h3>100 $</h3>
+                    <button onclick="tocart(100)" class="bt">Add to Cart</button>
+                </div>
+                <div class="book">
+                    <img src="https://www.oxfordscholastica.com/wp-content/uploads/2018/12/The-Kite-Runner-Penguin-e1545133780598.jpg" height="500 width=450">
+                    <h4>Kite Runner</h4>
+                    <h3>150 $</h3>
+                    <button onclick="tocart(150)" class="bt">Add to Cart</button>
+                </div>
+                <div class="book">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/51sLuf5ZJmL.jpg" height="500 width=450">
+                    <h4>The Atlantis Gene</h4>
+                    <h3>200 $</h3>
+                    <button onclick="tocart(200)" class="bt">Add to Cart</button>
+                </div>
+                
+                <div class="book">
+                    <img src="https://bestlifeonline.com/wp-content/uploads/sites/3/2020/10/The-Hobbit-book-cover.jpg?resize=500,774&quality=82&strip=all" height="500 width=450">
+                    <h4>The Hobbit</h4>
+                    <h3>120 $</h3>
+                    <button onclick="tocart(250)" class="bt">Add to Cart</button>
+                </div>
+                <div class="book">
+                    <img src="https://bestlifeonline.com/wp-content/uploads/sites/3/2020/10/The-Bridges-of-Madison-County-book-cover.jpg?resize=500,805&quality=82&strip=all" height="500 width=450">
+                    <h4>The Bridge of Madison County</h4>
+                    <h3>324 $</h3>
+                    <button onclick="tocart(300)" class="bt">Add to Cart</button>
+                </div>
+                <div class="book">
+                    <img src="https://bestlifeonline.com/wp-content/uploads/sites/3/2020/10/The-Alchemist-book-cover.jpg?resize=500,759&quality=82&strip=all" height="500 width=450">
+                    <h4>The Alchemist</h4>
+                    <h3>153 $</h3>
+                    <button onclick="tocart(350)" class="bt">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="my-cart w-25 p-2 col-3 mt-5">
+            <h2 class="text-center"><i class="fa-sharp fa-solid fa-cart-shopping"> Your Cart</i></h2>
+            <hr>
+            <h3>Total Products: <span id="total-products">0</span></h3>
+            <h3>Price: <span id="price">0</span> $</h3>
+            <h3>Delivery Charge: <span id="delivery-charge">0</span> $</h3>
+            <hr>
+            <h3>Shipping Charge: <span id="shipping-charge">0</span> $</h3>
+            <h2>Total Price <span id="total">0</span> $</h2>
+            <h3>Tax (10%): <span id="tax">0</span>  $</h3>
+            <hr>
+            <h2>Total Price with Tax: <br><span id="intotal">0</span> $</h2>
+            <button onclick="blank()" class="btn-order">Place Order!</button>
+          </div>
+    </div>
+
+    <!-- All Products ENDS -->
+
+        <!-- Upcoming Products STARTS -->
+        <h1 class="Up-Product-top">Upcoming Products</h1>
+        <div class="Up-Products">
+            <div>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/5103BfupPSL.jpg" height="500 width=450">
+                <h2>Until the End of Time</h2>
+            </div>
+            <div>
+                <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1557868495-41RTt7alEqL.jpg" height="500 width=450">
+                <h2>Stillhouse Lake</h2>
+            </div>
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXKeBKUfU_-4TWj8hsMvUTttX0XawSEj9Wv-ee861wmkfeUzlnJ8Aq8LklM2YOL7yA9OE&usqp=CAU" height="500 width=450">
+                <h2>A place for us</h2>
+            </div>
+        </div>
+
+    <!-- Upcoming Products ENDS -->
+    
+    <!-- Review STARTS -->
+    
+    <section id="Review">
+        <h1 class="Review-top">Review</h1>
+
+        <div id="carouselExampleDark2" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="avatar1.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Md. Shakib</h5>
+                                <p class="card-text">Valo</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 1 mins ago</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="avatar2.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Hossain Md Sazzad</h5>
+                                <p class="card-text">Beshi valo</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 8 mins ago</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="avatar3.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Arnab Barua</h5>
+                                <p class="card-text">Otirikto valo</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="avatar1.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Durjoy Barua</h5>
+                                <p class="card-text">Kharap</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 41 mins ago</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="avatar3.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Mohammad Ariful Islam</h5>
+                                <p class="card-text">Valo hoite hoite ar valo hoite partese na</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 1 mins ago</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="avatar2.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Mostofa Shahriar Asif</h5>
+                                <p class="card-text">Beshi Kharap</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 73 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="avatar3.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Shams Farabi Al Muhit</h5>
+                                <p class="card-text">Motamuti</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 18 mins ago</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="avatar1.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Sorowar Mahabub</h5>
+                                <p class="card-text">Reach kom</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 1 mins ago</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="avatar2.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Shoykot Rayhan</h5>
+                                <p class="card-text">Bolbo na</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 4 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            <br><br><br>
+        </div>
+    </section>
+
+    <!-- Review ENDS -->
+    
+    <!-- Contact Portion STARTS -->
+    <section id="Contact">
+        <br><br><br>
+        <h1 class="contact-top">Find Me Here</h1>
+        <div class="contact">
+            <div class="left">
+                <u class="left-head">Address:</u>
+                <Address>
+                    S. S. Khaled Road<br>
+                    Jamalkhan, Chittagong<br>
+                </Address>
+                <br>
+                <u class="left-head">Phone: </u><br>
+                +88 01973 406677<br>
+                <br>
+                <u class="left-head">Email: </u><br>
+                arifislam928374@gmail.com<br>
+                <a href = "mailto: arifislam928374@gmail.com">Send Email</a>
+            </div>
+            <div class="right">
+                <div class="fb-logo">
+                    <img src="fb-logo.png" alt="Logo" height="50" width="50">
+                </div>
+                <div class="social">
+                    <a href="https://www.facebook.com/muhammad.arifulislam.1004/">Facebook</a>
+                </div>
+                <div class="whatsapp-logo">
+                    <img src="whatsapp-logo.png" alt="Logo" height="50" width="50">
+                </div>
+                <div class="social">
+                    <a href="https://wa.me/01973406677">Whatsapp</a>
+                </div>
+                <div class="telegram-logo">
+                    <img src="telegram-logo.jpg" alt="Logo" height="50" width="50">
+                </div>
+                <div class="social">
+                    <a href="https://t.me/Muhammad_Ariful_Islam">Telegram</a>
+                </div>
+                <div class="linkedin-logo">
+                    <img src="linkedin-logo.png" alt="Logo" height="50" width="50">
+                </div>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/mohammad-ariful-islam-b491711b6/">Linkedin</a>
+                </div>
+                <div class="github-logo">
+                    <img src="github-logo.png" alt="Logo" height="50" width="50">
+                </div>
+                <div class="social">
+                    <a href="https://github.com/Arif65">Github</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Portion ENDS -->
+
+    <!-- Footer Starts -->
+
+    <footer class="ft">
+        <h2>Author: Mohammad Ariful Islam</h2>
+        <h3>Last updated: Oct 17, 2022</h3>
+    </footer>
+
+    <!-- Footer Ends -->
+
+  </body>
+</html>

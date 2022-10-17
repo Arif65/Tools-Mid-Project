@@ -1,0 +1,168 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+.Home-top{
+    text-align: center;
+    background-color:black;
+    color: wheat;
+}
+
+.pf{
+    color:red;
+    padding-left: 100px;
+}
+
+.menu{
+    padding-right: 50px;
+}
+
+.menu a{
+    color:aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+.Product-top{
+    text-align: center;
+    background-color:black;
+    color: wheat;
+}
+
+.items{
+    display: flex;
+    /*
+    justify-content:space-around;
+    align-items:center;
+    */
+}
+
+.disc-book-pic{
+    padding-left: 600px;
+}
+
+.disc-book-info{
+    text-align-last: center;
+    padding-top: 150px;
+    padding-left: 200px;
+}
+
+.All-Product-top{
+    text-align: center;
+    background-color:black;
+    color: wheat;
+}
+
+.all{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.all-items{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-repeat: no-repeat;
+}
+
+.book{
+    text-align-last: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.bt{
+    font-size: x-large;
+}
+
+.my-cart{
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+}
+
+.Up-Product-top{
+    text-align: center;
+    background-color:black;
+    color: wheat;
+}
+
+.Up-Products{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.Review-top{
+    text-align: center;
+    background-color:black;
+    color: wheat;
+}
+
+.card-group{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.card-img-top{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.contact-top{
+    text-align: center;
+    background-color:black;
+    color: wheat;
+}
+
+.contact{
+    display:flex;
+    align-items: center;
+}
+
+.left{
+    font-size:larger;
+    font-weight: bold;
+    padding-left: 600px;
+}
+
+.left-head{
+    color:darkolivegreen;
+}
+
+.right{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 200px;
+    column-gap: 15ch;
+}
+
+.social{
+    padding-left:0px;
+    padding-top:20px;
+}
+
+.ft{
+    text-align: center;
+    color:black;
+    background-color:gainsboro;
+}
+
+#carouselExampleIndicators{
+    padding-left: 600px;
+}
